@@ -1,1 +1,124 @@
+# SZ1 IRES Mutation Analysis
 
+## Overview
+
+This project investigated the contribution of specific structural regions of the SZ1 IRES to translation activity.
+
+The SZ1 element, derived from Salivirus A, is approximately 650 nt in length. Based on its predicted secondary structure, selected nucleotides and structural regions were targeted for systematic mutational analysis.
+
+The effects of these mutations were evaluated using dual-luciferase reporter assays, followed by validation of selected variants in the Tornado system.
+
+---
+
+## Research Question
+
+Which structural regions and nucleotide positions within the SZ1 IRES are important for maintaining translation activity?
+
+---
+
+## Experimental Strategy
+
+1. Examine the predicted secondary structure of the SZ1 IRES.
+2. Select candidate regions and nucleotide positions for mutagenesis.
+3. Generate substitution, insertion, and deletion variants.
+4. Compare translation activity using dual-luciferase assays.
+5. Select candidate variants for repeat validation.
+6. Evaluate selected variants in the Tornado system.
+
+---
+
+## Results
+
+### 1. Initial SZ1-1 Mutational Screening
+
+Mutations targeting the SZ1-1 region resulted in substantial changes in reporter activity.
+
+Relative luciferase activity was normalized to WT SZ1.
+
+| Construct | Relative activity |
+| --- | ---: |
+| SZ1 | 100 |
+| SZ1-1A | 4.20 |
+| SZ1-1G | 4.16 |
+| SZ1-1T | 3.75 |
+| SZ1-1In | 2.33 |
+| SZ1-1Del | 9.97 |
+
+These results suggested that the targeted SZ1-1 region is important for maintaining SZ1-mediated translation activity.
+
+![Initial mutant screening](figures/03_initial_mutant_screening.png)
+
+---
+
+### 2. Candidate Mutation Validation
+
+Additional mutations were designed around the SZ1-1 region to further investigate sequence-dependent effects on translation.
+
+Among the tested variants, SZ1-2C was selected for additional validation.
+
+In repeat dual-luciferase assays, SZ1-2C showed reporter activity comparable to or higher than WT SZ1.
+
+![SZ1-2C validation](figures/04_SZ1_2C_validation.png)
+
+---
+
+### 3. Validation in the Tornado System
+
+Selected SZ1 variants were subsequently evaluated in the Tornado system.
+
+Relative activity:
+
+| Construct | Relative activity |
+| --- | ---: |
+| SZ1 | 100 |
+| SZ1-2C | 91.13 |
+| SZ1-2G | 32.57 |
+| SZ1-4A | 71.54 |
+| SZ1-4C | 55.12 |
+| SZ1-4G | 75.42 |
+| SZ1-4In | 26.78 |
+| SZ1-4Del | 77.47 |
+
+SZ1-2C retained relatively high activity compared with several other tested variants.
+
+![Tornado validation](figures/05_Tornado_validation.png)
+
+---
+
+## Interpretation
+
+The mutational analysis indicated that specific regions of the SZ1 IRES are sensitive to sequence perturbation.
+
+The initial SZ1-1 screening identified a region in which mutations strongly affected reporter activity. Subsequent fine-scale mutational analysis and validation experiments were used to identify candidate variants with relatively preserved activity.
+
+SZ1-2C was subsequently evaluated in the Tornado system as a selected candidate.
+
+---
+
+## Methods
+
+- RNA secondary structure analysis
+- Site-directed mutagenesis
+- Dual-luciferase reporter assay
+- Tornado system-based validation
+- Relative luciferase activity analysis
+
+---
+
+## Key Takeaways
+
+- Systematic mutational analysis was used to investigate functional regions of the SZ1 IRES.
+- Mutations within selected structural regions substantially affected translation activity.
+- SZ1-2C showed relatively preserved activity across validation experiments.
+- Selected variants were further evaluated in the Tornado system.
+
+
+
+
+
+
+## Research Perspective
+
+This project shifted my approach from testing individual sequence variants toward using structural information to formulate and test hypotheses about IRES function.
+
+Rather than treating the IRES as a single functional element, I began to investigate how local structural changes could affect translation activity and how candidate variants could be progressively narrowed down through screening and validation.
