@@ -29,8 +29,25 @@ For the IRES screening, candidate IRES elements were evaluated in the same repor
 
 - **Cell line:** HEK293T
 - **Plate format:** 96-well plate
-- **Transfection reagent:** Lipofectamine
+- **Cell seeding density:** 4 × 10⁴ cells/well
+- **Transfection reagent:** Lipofectamine 3000
 - **Replicates:** 2 technical replicates per condition
+- **Final well volume:** 100 µL/well
+
+### Transfection setup
+
+The transfection mixture was prepared using the following volumes per well:
+
+**Plasmid/sample mixture**
+- Plasmid (sample): **8 µL**
+- Opti-MEM: **5 µL**
+- P3000: **0.2 µL**
+
+**Lipofectamine mixture**
+- Opti-MEM: **5 µL**
+- Lipofectamine 3000: **0.3 µL**
+
+The two mixtures were prepared separately and then used for transfection. No additional protocol parameters are inferred beyond the values recorded above.
 
 The initial and repeat screens were performed approximately one week apart. Experimental conditions were kept consistent between the two screens. Cell passage differed by approximately one to two passages between experiments.
 
@@ -67,4 +84,4 @@ These observations motivated the integrated optimization stage of the project.
 
 ## 9. Scope and reproducibility note
 
-Only experimental details supported by the current experimental record are documented here. Exact plasmid sequences, reagent amounts, cell seeding density, Lipofectamine amount, and other protocol-level parameters should be added when the corresponding laboratory records are available rather than inferred retrospectively.
+Only experimental details supported by the current experimental record are documented here. Exact plasmid sequences and any protocol-level parameters not provided in the experimental record are intentionally not inferred.
