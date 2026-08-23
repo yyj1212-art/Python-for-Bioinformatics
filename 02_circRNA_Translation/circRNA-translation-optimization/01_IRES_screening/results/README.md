@@ -19,6 +19,8 @@ A candidate was classified as a **stable high performer** when all three criteri
 2. Repeat-screening coefficient of variation (CV) ≤ 10%
 3. Absolute change between initial and repeat means ≤ 20%
 
+These thresholds are an **exploratory prioritization rule for this portfolio dataset**, not statistically validated biological cutoffs. They are explicitly documented so the analysis can be revised when additional independent experiments become available.
+
 Candidates with high repeat performance but failing one or more stability criteria were retained as **high performers requiring validation**, rather than being discarded.
 
 ### Stable high performers
