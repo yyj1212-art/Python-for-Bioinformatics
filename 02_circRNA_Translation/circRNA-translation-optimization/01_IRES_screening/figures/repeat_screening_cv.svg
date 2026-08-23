@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="1000" height="700" fill="white"/>
+<text x="90" y="42" font-family="Arial" font-size="24" font-weight="bold">Within-repeat variability</text>
+<text x="90" y="68" font-family="Arial" font-size="14">Coefficient of variation for the repeat screening</text>
+<line x1="220" y1="105" x2="900" y2="105" stroke="#333"/>
+<g font-family="Arial" font-size="12" fill="#333"><text x="215" y="95">0%</text><text x="330" y="95">5%</text><text x="445" y="95">10%</text><text x="560" y="95">15%</text><text x="675" y="95">20%</text><text x="790" y="95">25%</text><text x="900" y="95">30%</text></g>
+<line x1="450" y1="105" x2="450" y2="610" stroke="#777" stroke-dasharray="6 6"/>
+<g font-family="Arial" font-size="13" fill="#222">
+<text x="90" y="145">CVA12</text><rect x="220" y="128" width="10" height="24" fill="#777"/>
+<text x="90" y="185">Echo33</text><rect x="220" y="168" width="22" height="24" fill="#777"/>
+<text x="90" y="225">CVB5</text><rect x="220" y="208" width="53" height="24" fill="#777"/>
+<text x="90" y="265">CVA17</text><rect x="220" y="248" width="74" height="24" fill="#777"/>
+<text x="90" y="305">CVA19</text><rect x="220" y="288" width="120" height="24" fill="#777"/>
+<text x="90" y="345">FMDV (A/O)</text><rect x="220" y="328" width="121" height="24" fill="#777"/>
+<text x="90" y="385">Echo20</text><rect x="220" y="368" width="123" height="24" fill="#777"/>
+<text x="90" y="425">EVB80</text><rect x="220" y="408" width="146" height="24" fill="#777"/>
+<text x="90" y="465">CVA9</text><rect x="220" y="448" width="177" height="24" fill="#777"/>
+<text x="90" y="505">CVA3</text><rect x="220" y="488" width="209" height="24" fill="#777"/>
+<text x="90" y="545">Echo26</text><rect x="220" y="528" width="239" height="24" fill="#777"/>
+<text x="90" y="585">CVA7</text><rect x="220" y="568" width="468" height="24" fill="#777"/>
+</g>
+<text x="450" y="640" font-family="Arial" font-size="13">10% threshold used in candidate prioritization</text>
+</svg>
