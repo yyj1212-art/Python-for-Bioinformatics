@@ -1,0 +1,21 @@
+IRES screening reproducibility metrics
+Spearman rank correlation (excluding FHB): 0.923
+Pearson correlation (excluding FHB): 0.896
+
+Candidate rule used for this exploratory prioritization:
+- repeat mean >= 300
+- repeat CV <= 10%
+- absolute inter-experiment change <= 20%
+
+Stable high performers:
+- EVB80
+- FMDV (A/O)
+- CVA3
+- CVA17
+
+High performers requiring validation:
+- Echo26
+- CVA7
+- CVA12
+
+Note: the thresholds above are an analysis rule for prioritization in this portfolio dataset, not a statistically validated biological cutoff.
