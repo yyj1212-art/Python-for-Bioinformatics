@@ -1,0 +1,21 @@
+date,experiment,construct,n,mean_G_over_F,stdev_G_over_F,relative_to_SZ1_percent
+2026-03-25,Initial mutant screening,SZ1,2,2.370062,0.485762,100.0
+2026-03-25,Initial mutant screening,SZ1-0A,2,0.360135,0.017245,15.195175
+2026-03-25,Initial mutant screening,SZ1-0C,2,0.080684,0.011075,3.4043
+2026-03-25,Initial mutant screening,SZ1-0T,2,0.127458,0.01037,5.377814
+2026-03-25,Initial mutant screening,SZ1-0In,2,0.755617,0.05408,31.881747
+2026-03-25,Initial mutant screening,SZ1-0Del,2,0.295661,0.032077,12.474824
+2026-03-25,Initial mutant screening,SZ1-1A,2,0.100386,0.011681,4.235607
+2026-03-25,Initial mutant screening,SZ1-1G,2,0.079228,0.010969,3.342888
+2026-03-25,Initial mutant screening,SZ1-1T,2,0.052564,0.00514,2.217812
+2026-03-25,Initial mutant screening,SZ1-1In,2,0.032333,0.001369,1.364226
+2026-03-25,Initial mutant screening,SZ1-1Del,2,0.174509,0.007834,7.363079
+2026-03-25,Initial mutant screening,SZ1-2A,2,0.287877,0.060255,12.146394
+2026-03-25,Initial mutant screening,SZ1-2C,2,2.587414,1.015317,109.170732
+2026-03-25,Initial mutant screening,SZ1-2G,2,0.398921,0.097633,16.831673
+2026-03-25,Initial mutant screening,SZ1-2In,2,0.158548,0.039725,6.689637
+2026-03-25,Initial mutant screening,SZ1-2Del,2,0.326367,0.072652,13.770402
+2026-03-25,Initial mutant screening,NT,2,1.456291,0.701117,61.445262
+2026-04-03,SZ1-2C repeat validation,SZ1,2,3.016564,0.304003,100.0
+2026-04-03,SZ1-2C repeat validation,SZ1-2C,2,3.37522,0.18002,111.889519
+2026-04-03,SZ1-2C repeat validation,NT,2,2.315818,0.011492,76.770048
