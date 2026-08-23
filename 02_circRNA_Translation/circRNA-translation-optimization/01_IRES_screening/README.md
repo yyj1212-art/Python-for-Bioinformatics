@@ -70,8 +70,8 @@ The repeat experiment therefore supports a more nuanced conclusion than simply c
 
 ## Figures and results
 
-- `figures/initial_vs_repeat_reproducibility.png` — relationship between initial and repeat screening performance
-- `figures/repeat_screening_cv.png` — within-repeat variability for each candidate
+- `figures/initial_vs_repeat_reproducibility.svg` — relationship between initial and repeat screening performance
+- `figures/repeat_screening_cv.svg` — within-repeat variability for each candidate
 - `results/` — derived reproducibility metrics and interpretation
 
 The analysis is intentionally separated from the underlying measurements so that the workflow can be rerun when additional screening experiments are added.
