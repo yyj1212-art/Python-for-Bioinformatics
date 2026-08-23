@@ -7,7 +7,7 @@ The screening workflow was:
 ```text
 HEK293T cells
       ↓
-Lipofectamine transfection in 96-well plates
+Lipofectamine 3000 transfection in 96-well plates
       ↓
 24 h incubation
       ↓
@@ -19,7 +19,7 @@ Gluc / F-luc normalization
       ↓
 Average of technical replicates
       ↓
-WT normalization
+WT (FHB) normalization
       ↓
 Relative translation activity
 ```
@@ -36,17 +36,17 @@ The two replicate-level G/F values were then averaged to obtain the condition-le
 
 The standard deviation between the two technical replicates was also calculated to represent within-condition measurement variability.
 
-## 3. WT normalization
+## 3. WT (FHB) normalization
 
-The WT condition was used as the normalization reference.
+The **FHB sample was the WT normalization reference**.
 
-The mean G/F value of each candidate was divided by the mean G/F value of WT and multiplied by 100:
+The mean G/F value of each candidate was divided by the mean G/F value of FHB (WT) and multiplied by 100:
 
-`Relative translation activity = (candidate mean G/F / WT mean G/F) × 100`
+`Relative translation activity = (candidate mean G/F / FHB mean G/F) × 100`
 
-Under this normalization, WT corresponds to **100 relative translation units**.
+Under this normalization, FHB (WT) corresponds to **100 relative translation units**.
 
-The replicate standard deviation was normalized using the same WT reference so that variability remained on the same relative scale as the normalized mean.
+The replicate standard deviation was normalized using the same FHB (WT) reference so that variability remained on the same relative scale as the normalized mean.
 
 ## 4. Initial vs repeat comparison
 
