@@ -13,7 +13,9 @@ Candidate IRES elements
         ↓
 Initial screening
         ↓
-Normalization to FHB reference
+Reporter assay
+        ↓
+Normalization
         ↓
 Repeat screening
         ↓
@@ -23,6 +25,15 @@ Reproducibility analysis
         ↓
 Candidate prioritization
 ```
+
+## Methods
+
+The experimental design and data-processing workflow are documented separately so that the experimental record and computational analysis remain clearly connected:
+
+- [`methods/experimental_design.md`](methods/experimental_design.md) — research motivation, reporter system, HEK293T/Lipofectamine setup, replicate design, initial/repeat screening, and follow-up strategy
+- [`methods/assay_and_data_processing.md`](methods/assay_and_data_processing.md) — luciferase measurement, G/F normalization, WT normalization, replicate processing, and data hierarchy
+
+Only experimentally supported details are documented. Protocol-level parameters that are not currently available in the experimental record are intentionally left unspecified.
 
 ## Data organization
 
@@ -53,6 +64,8 @@ To avoid selecting candidates based only on a single high measurement, the curre
 
 Candidates with high repeat performance that fail one or more stability criteria are classified as **high performers requiring validation** rather than being discarded.
 
+These thresholds are an exploratory prioritization rule for this portfolio dataset, not statistically validated biological cutoffs.
+
 ## Key result
 
 The initial and repeat experiments show strong overall agreement in candidate ranking:
@@ -60,13 +73,15 @@ The initial and repeat experiments show strong overall agreement in candidate ra
 - **Spearman rank correlation: 0.923**
 - **Pearson correlation: 0.896**
 
-Using the criteria above, the current dataset identifies **EVB80, FMDV (A/O), CVA3, and CVA17** as stable high performers. **Echo26, CVA7, and CVA12** remain high-performing candidates but require additional validation because one or more stability criteria are not met.
+Using the exploratory criteria above, the current dataset identifies **EVB80, FMDV (A/O), CVA3, and CVA17** as stable high performers. **Echo26, CVA7, and CVA12** remain high-performing candidates but require additional validation because one or more stability criteria are not met.
 
 CVA12 is particularly informative: its repeat mean is high and its within-repeat CV is low, but its repeat performance increased substantially relative to the initial experiment. This makes it a strong candidate for follow-up validation rather than an automatic final selection.
 
 ## Interpretation
 
 The repeat experiment therefore supports a more nuanced conclusion than simply choosing the highest-scoring IRES. The overall ranking is reproducible, but individual candidates differ in inter-experiment stability and within-repeat variability. Candidate selection should consider all three dimensions before downstream optimization.
+
+The subsequent optimization experiments also showed that high-performing IRES and UTR elements cannot necessarily be combined based only on their individual screening performance. Potential structural interactions between RNA elements motivated the integrated optimization stage.
 
 ## Figures and results
 
