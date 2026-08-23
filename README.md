@@ -1,4 +1,4 @@
-# Python-for-Bioinformatics
+# Yangyoungjin-GitHub
 ```markdown
 # 🧬 CHO Cell Transcriptome Data Analysis Pipeline
 RNA 응용생물학 실험(Wet-lab) 경험을 바탕으로, **CHO 세포의 고용량 전사체(RNA-seq) 데이터**를 파이썬 기반으로 전처리하고 시스템생물학적 해석을 수행하기 위한 저장소입니다.
