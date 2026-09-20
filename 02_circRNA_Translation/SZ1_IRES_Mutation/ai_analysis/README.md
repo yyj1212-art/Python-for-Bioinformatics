@@ -12,9 +12,23 @@ This folder documents the computational workflow used to connect the SZ1 IRES mu
 5. Build a training dataset combining experimental translation efficiency and RNA-structure features.
 6. Train a Random Forest regressor as a proof-of-concept model and inspect feature importance.
 
+## Recovered execution record
+
+The project execution log recovered from the original PowerShell session confirms that `build_training_dataset.py` was run successfully. It reports:
+
+- 9 experimental training samples.
+- WT-base verification: **PASSED**.
+- Output: `results\\training_dataset.csv`.
+- WT MFE: **-231.5 kcal/mol**.
+- The recovered experimental variants are SZ1-0A/C/T, SZ1-1A/G/T, and SZ1-2A/C/G.
+
+The recovered MFE/ΔMFE values for these experimentally mapped variants are stored in `results/rnafold_results_experimental_subset.csv`. The full 1,950-variant RNAfold output was not independently recovered from the execution log, so this repository does **not** label the 9-row subset as the complete RNAfold result.
+
 ## Current experimental dataset
 
 The experimentally measured dataset currently contains a small number of validated SZ1 variants. The present model is therefore a **proof-of-concept**, not a validated predictive model. The code is kept reproducible so the dataset can be expanded as additional experiments are performed.
+
+The recovered experimental summary is stored in `data/experimental_variant_summary.csv`.
 
 ## Local PowerShell workflow
 
@@ -35,3 +49,5 @@ python .\src\train_model.py
 - `src/run_rnafold.py` — runs RNAfold and calculates MFE/ΔMFE.
 - `src/build_training_dataset.py` — combines experimental labels with structure features.
 - `src/train_model.py` — Random Forest proof-of-concept model.
+- `../data/experimental_variant_summary.csv` — recovered experimental labels used by the 9-sample dataset.
+- `../results/rnafold_results_experimental_subset.csv` — recovered MFE/ΔMFE values for the experimentally mapped variants.
